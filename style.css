@@ -156,7 +156,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: no-repeat center;
+    background: url(back.png) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -164,11 +164,7 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-.home img{
-    
-    background: no-repeat center;
-    
-}
+   
 .home .max-width{
     margin: auto 0 auto 30px;
 }
